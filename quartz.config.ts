@@ -3,14 +3,14 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "vault-template",
+    pageTitle: "Faaiz's Vault",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "indravajra.github.io/vault-template",
+    baseUrl: "Faaiz212.github.io/vault",
     ignorePatterns: ["private", "_bin", "_inbox", ".obsidian"],
     defaultDateType: "created",
     theme: {
