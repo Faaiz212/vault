@@ -74,3 +74,23 @@ YARN applications run from a few seconds to several days. The jobs to applicatio
 ## Conclusion
 
 YARN is designed to be a highly scalable, distributed system with fault-tolerant and load-balanced components. YARN is an ideal choice for running distributed applications where a large number of tasks need to be executed in parallel. YARN helps in scaling your application up by introducing a concept called resource allocation. It allows you to allocate resources to your tasks depending on their importance. YARN also provides real-time metrics, monitoring, and alerting. It helps in real-time monitoring of your application and alerts you if there is any task failure.
+
+## Another Explanation:
+
+## Hadoop YARN
+
+Hadoop YARN stands for Yet Another Resource Negotiator. It is the resource management unit of Hadoop and is available as a component of Hadoop version 2.
+
+Hadoop YARN acts like an OS to Hadoop. It is a file system that is built on top of HDFS.
+
+It is responsible for managing cluster resources to make sure you don't overload one machine.
+
+It performs job scheduling to make sure that the jobs are scheduled in the right place
+
+![[_bin/images/Data Engineering/clip_image015.jpg]]
+
+Suppose a client machine wants to do a query or fetch some code for [data analysis](https://www.simplilearn.com/data-analysis-methods-process-types-article "data analysis"). This job request goes to the resource manager (Hadoop Yarn), which is responsible for resource allocation and management.
+
+In the node section, each of the nodes has its node managers. These node managers manage the nodes and monitor the resource usage in the node. The containers contain a collection of physical resources, which could be RAM, CPU, or hard drives. Whenever a job request comes in, the app master requests the container from the node manager. Once the node manager gets the resource, it goes back to the Resource Manager.
+
+
